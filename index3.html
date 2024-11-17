@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1><font color="purple">Rock Paper Scissors</font></h1>
+        <div class="scoreboard">
+            <div class="player-score">
+                <div class="profile-pic" id="user-pic">
+                    <img src="images.jpg" alt="User Profile">
+                    <span>Computer2</span>
+                </div>
+                <div class="score" id="user-score">0</div>
+            </div>
+            <div id="game-over" class="hidden">Game Over!</div>
+            <div class="player-score">
+                <div class="profile-pic" id="computer-pic">
+                    <img src="rock-paper-scissors.jpg" alt="Computer Profile">
+                    <span>Computer</span>
+                </div>
+                <div class="score" id="computer-score">0</div>
+            </div>
+        </div>
+        <div class="choices">
+            <button class="buttonX" onclick="play()"> Start </button>
+        </div>
+        <div class="results">
+            <div id="result"></div>
+            <div id="result2"></div>
+            <div id="result3"></div>
+        </div>
+        <br><br>
+        <button class="reset-button" onclick="resetScores()">Reset Scores</button>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

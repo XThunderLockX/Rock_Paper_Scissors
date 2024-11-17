@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rock Paper Scissors</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("playbg.jpg");
+            background-size: cover; 
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #000000; 
+        }
+
+        .play-button {
+            padding: 15px 30px;
+            font-size: 30px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .play-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+    <style>
+        .play-button2 {
+            padding: 15px 30px;
+            font-size: 30px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .play-button2:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Rock Paper Scissors</h1>
+        <button class="play-button" onclick="playGame()">Play</button>
+        <button class="play-button2" onclick="playgame2()">Computer Game</button>
+    </div>
+
+    <script>
+        function playGame() {
+            window.location.href = "index.html";
+        }
+    </script>
+    <script>
+        function playgame2(){
+            window.location.href= "index3.html"
+        }
+    </script>
+</body>
+</html>
